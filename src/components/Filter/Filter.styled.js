@@ -16,6 +16,4 @@ export const FilterInput = styled.input`
 `;
 export const FilterLabel = styled.label`
   display: flex;
-  /* justify-content: center;
-  align-items: center; */
 `;

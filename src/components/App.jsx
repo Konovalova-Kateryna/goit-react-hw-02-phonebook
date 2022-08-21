@@ -5,9 +5,7 @@ import { ContactForm } from './ContactForm/ContactForm';
 import ContactList from './ContactList/ContactList';
 import Filter from './Filter/Filter';
 import { GlobalStyle } from './GlobalStyle';
-import { Box } from './Box';
 import { Title } from './Section/SectionTitle.styled';
-import { FormTitle } from 'components/ContactForm/ContactForm.styled';
 import { SectionBox } from './Section/SectionTitle.styled';
 
 export class App extends Component {
