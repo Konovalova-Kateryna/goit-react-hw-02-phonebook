@@ -1,4 +1,5 @@
 import { List, ListItem, ContactListBox } from './ContactList.styled';
+import { PropTypes } from 'prop-types';
 
 const ContactList = ({ options, onDeleteContact }) => {
   return (
@@ -17,5 +18,10 @@ const ContactList = ({ options, onDeleteContact }) => {
       </List>
     </ContactListBox>
   );
+};
+
+ContactList.propTypes = {
+  options: PropTypes.arrayOf(PropTypes.objectOf(PropTypes.sting)),
+  onDeleteContact: PropTypes.func,
 };
 export default ContactList;
